@@ -1,0 +1,13 @@
+# Empty CSS file for your own CSS
+.target {
+    width:50%;
+    height:200px;
+    border:solid black 1px; 
+}
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
